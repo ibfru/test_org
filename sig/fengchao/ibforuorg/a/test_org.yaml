@@ -1,0 +1,15 @@
+name: Tet
+description: fengchao SIG
+created_on: '2024-05-23'
+mailing_list: feng0chao@gmail.com
+meeting_url: NA
+mature_level: startup
+mentors:
+  - gitee_id: ibforu
+    name: Chao Feng
+    email: dillon.chen@gmail.com
+maintainers:
+  - gitee_id: ibforu
+    name: Chao Feng
+    orgnization: Huawei
+    email: feng0chao@gmail.com
