@@ -1,0 +1,74 @@
+base path: https://gitee.com/api
+
+label
+1. GetV5ReposOwnerRepoLabels 
+"/v5/repos/{owner}/{repo}/labels"
+2. GetV5ReposOwnerRepoIssuesNumberLabels
+"/v5/repos/{owner}/{repo}/issues/{number}/labels"
+3. GetV5ReposOwnerRepoPullsNumberLabels
+"/v5/repos/{owner}/{repo}/pulls/{number}/labels"
+4. PostV5ReposOwnerRepoIssuesNumberLabels
+"/v5/repos/{owner}/{repo}/issues/{number}/labels"
+5. DeleteV5ReposOwnerRepoIssuesNumberLabelsName
+"/v5/repos/{owner}/{repo}/issues/{number}/labels/{name}"
+6. PostV5ReposOwnerRepoPullsNumberLabels
+"/v5/repos/{owner}/{repo}/pulls/{number}/labels"
+7. DeleteV5ReposOwnerRepoPullsLabel
+"/v5/repos/{owner}/{repo}/pulls/{number}/labels/{name}"
+8. PostV5ReposOwnerRepoLabels
+"/v5/repos/{owner}/{repo}/labels"
+9. PostV5ReposOwnerRepoPullsNumberComments
+"/v5/repos/{owner}/{repo}/pulls/{number}/comments"
+10. PostV5ReposOwnerRepoIssuesNumberComments
+"/v5/repos/{owner}/{repo}/issues/{number}/comments"
+11. GetV5ReposOwnerRepoCollaboratorsUsername
+"/v5/repos/{owner}/{repo}/collaborators/{username}"
+
+
+welcome
+1. PostV5ReposOwnerRepoPullsNumberComments
+2. PostV5ReposOwnerRepoIssuesNumberComments
+3. GetV5ReposOwnerRepoContentsPath
+"/v5/repos/{owner}/{repo}/contents/{path}"
+4. PostV5ReposOwnerRepoLabels
+5. GetV5ReposOwnerRepoLabels
+6. PostV5ReposOwnerRepoPullsNumberLabels
+6. PostV5ReposOwnerRepoIssuesNumberLabels
+7. GetV5ReposOwnerRepoCollaborators
+"/v5/repos/{owner}/{repo}/collaborators"
+7. GetV5ReposOwnerRepoGitTreesSha
+"/v5/repos/{owner}/{repo}/git/trees/{sha}"
+8. GetV5ReposOwnerRepoPullsNumberFiles
+"/v5/repos/{owner}/{repo}/pulls/{number}/files"
+9. PostV5ReposOwnerRepoPullsNumberAssignees
+"/v5/repos/{owner}/{repo}/pulls/{number}/assignees"
+
+review
+1. PostV5ReposOwnerRepoPullsNumberLabels
+2. DeleteV5ReposOwnerRepoPullsLabel
+3. PostV5ReposOwnerRepoPullsNumberComments
+4. GetV5ReposOwnerRepoCollaboratorsUsernamePermission
+"/v5/repos/{owner}/{repo}/collaborators/{username}/permission"
+5. GetV5ReposOwnerRepoContentsPath
+6. GetV5ReposOwnerRepoPullsNumberFiles
+7. PostV5ReposOwnerRepoLabels
+8. GetV5ReposOwnerRepoLabels
+9. PutV5ReposOwnerRepoPullsNumberMerge
+"/v5/repos/{owner}/{repo}/pulls/{number}/merge"
+10. PatchV5ReposOwnerRepoPullsNumber
+"/v5/repos/{owner}/{repo}/pulls/{number}"
+11. GetV5ReposOwnerRepoPullsNumberComments
+"/v5/repos/{owner}/{repo}/pulls/{number}/comments"
+12. GetV5ReposOwnerRepoPullsNumberLabels
+13. GetV5ReposOwnerRepoPullsNumberOperateLogs
+"/v5/repos/{owner}/{repo}/pulls/{number}/operate_logs"
+14. GetV5ReposOwnerRepoPullsNumber
+"/v5/repos/{owner}/{repo}/pulls/{number}"
+
+sync
+1. GetV5OrgsOrgRepos
+"/v5/orgs/{org}/repos"
+2. GetV5ReposOwnerRepoBranches
+"/v5/repos/{owner}/{repo}/branches"
+3. GetV5ReposOwnerRepoGitTreesSha
+4. GetV5ReposOwnerRepoContentsPath
