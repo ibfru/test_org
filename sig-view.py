@@ -3,7 +3,7 @@ import sys
 
 def check_sig_info(sig, access_token):
     print('\nStarting to check sig info of sig {}'.format(sig))
-    return 1
+    return 0
 
 if __name__ == '__main__':
     # diff_files = [{'from': 'sig/Compiler/committers.md', 'to': 'sig/Compiler/committers.md'},
